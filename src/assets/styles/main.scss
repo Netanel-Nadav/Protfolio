@@ -1,0 +1,23 @@
+// SETUP
+
+@import './setup/virabels';
+@import './setup/functions';
+@import './setup/mixins';
+
+// BASE 
+
+@import './basics/base.scss';
+@import './basics/helpers';
+@import './basics/layout';
+
+
+// PAGES
+
+@import './views/home';
+@import './views/projects';
+
+
+// COMPONENTS
+
+@import './components/navigation';
+@import './components/project-preview';

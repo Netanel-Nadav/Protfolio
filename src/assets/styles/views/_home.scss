@@ -1,0 +1,27 @@
+.home {
+    margin-top: 1.5rem;
+    padding: 20px;
+    h1 {
+        font-size: rem(35px);
+    }
+    h3 {
+        font-size: rem(18px);
+        .Typewriter {
+            display: inline-block;
+        }
+    }
+
+    @include wide-layout {
+        .title-wrapper {
+            h1 {
+                font-size: rem(100px);
+            }
+        }
+        h3 {
+            font-size: rem(50px);
+            .Typewriter {
+                display: inline-block;
+            }
+        }
+    }
+}

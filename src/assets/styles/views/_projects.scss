@@ -1,0 +1,9 @@
+.projects {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    
+    @include wide-layout {
+        grid-template-columns: 1fr 1fr;
+    }
+}
