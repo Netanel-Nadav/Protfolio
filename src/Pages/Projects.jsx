@@ -12,8 +12,11 @@ export const Projects = () => {
   }, [])
 
   return (
-    <div className="projects">
-      {projects && projects.map(project => <ProjectPreview project={project} key={project.id}/>)}
-    </div>
+    <>
+      <h1 style={{textAlign: 'center', marginBottom: '3rem'}}>Check my Latest Projects</h1>
+      <div className="projects">
+        {projects && projects.map(project => <ProjectPreview project={project} key={project.id} />)}
+      </div>
+    </>
   )
 }

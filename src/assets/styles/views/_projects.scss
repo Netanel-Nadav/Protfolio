@@ -4,6 +4,10 @@
     gap: 20px;
     
     @include wide-layout {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns:
+        minmax(auto, 1fr)
+        auto
+        minmax(20px, 1fr)
+        ;
     }
 }
