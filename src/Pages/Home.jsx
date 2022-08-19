@@ -1,6 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
-
+import CV from '../assets/Nati-CV-pdf.pdf'
+import {Link} from 'react-router-dom'
 
 export const Home = () => {
   return (
@@ -9,22 +10,23 @@ export const Home = () => {
         <h1> &lt; Hello World! &gt; </h1>
         <p>my name is Netanel (but everyone call me Nati) </p>
       </div>
-      <h3>I am a <Typewriter options={{loop: true}} onInit={(typewriter) => {
+      <h3>I am a <Typewriter options={{ loop: true }} onInit={(typewriter) => {
         typewriter.typeString('React Developer')
-        .pauseFor(2000)
-        .deleteAll()
-        .typeString('CSS & SASS Ninja')
-        .pauseFor(2000)
-        .deleteAll()
-        .typeString('Fullstack Engineer')
-        .pauseFor(2000)
-        .deleteAll()
-        .typeString('Tennis Master (amateur level)')
-        .pauseFor(2000)
-        .deleteAll()
-        .start()
+          .pauseFor(2000)
+          .deleteAll()
+          .typeString('CSS & SASS Ninja')
+          .pauseFor(2000)
+          .deleteAll()
+          .typeString('Fullstack Engineer')
+          .pauseFor(2000)
+          .deleteAll()
+          .typeString('Tennis Master (amateur level)')
+          .pauseFor(2000)
+          .deleteAll()
+          .start()
       }} /></h3>
-
+      <a className='btn' href={CV} download>Download My CV</a>
+      <Link className='inverse-btn' to='/projects'>See My Projects</Link>
     </div>
   )
 }

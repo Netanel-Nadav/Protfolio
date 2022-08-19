@@ -1,4 +1,9 @@
 @mixin wide-layout {
+    @media (min-width: 1050px) {
+        @content;
+    }
+}
+@mixin normal-layout {
     @media (min-width: 760px) {
         @content;
     }

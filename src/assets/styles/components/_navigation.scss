@@ -1,21 +1,30 @@
 nav {
     position: relative;
     z-index: 10;
-    background-color: $clr2;
+    background-color: $clr4;
     height: 100%;
     padding: 20px;
     justify-content: space-between;
     align-items: center;
     box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.5);
+    h3 {
+       text-align: center;
+       font-size: rem(18px);
+       line-height: 1;
+       text-transform: uppercase;
+       color: $clr3;
+    }
+
     @include wide-layout {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        h3 {
+            display: block;
+            text-align: center;
+        }
     }
 
-    h3 {
-        text-align: center;
-    }
 
     .burger {
         gap: 5px;
@@ -23,7 +32,7 @@ nav {
         span {
             width: 35px;
             height: 6px;
-            background-color: rgba(0, 0, 0, 1);
+            background-color: $clr2;
             border-radius: 5px;
         }
     }
@@ -31,7 +40,7 @@ nav {
 
 .links {
     position: absolute;
-    background-color: $clr3;
+    background-color: $clr4;
     color: $clr2;
     height: 100%;
     width: 100%;

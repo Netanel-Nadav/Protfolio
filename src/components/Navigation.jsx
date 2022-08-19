@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export const Navigation = () => {
 
@@ -8,15 +8,12 @@ export const Navigation = () => {
   return (
     <>
     <nav className='flex'>
-      <div className="logo-container">
-        Logo
-      </div>
       <div className="burger flex column" onClick={() => setIsLinksOpen(!isLinksOpen)}>
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <h3>Netanel<br />Nadav</h3>
+      <Link to='/'><h3>Netanel<br />Nadav</h3></Link>
     </nav>
     <div className={`links flex justify-center align-center ${isLinksOpen ? 'open' : ''}`}>
       <ul className='clean-list flex'>

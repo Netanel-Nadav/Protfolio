@@ -1,6 +1,5 @@
 .main-container {
     display: grid;
-
     @include wide-layout {
         grid-template-columns: 150px 1fr;
         gap: 10px;
@@ -12,7 +11,7 @@
 .grid-container {
     display: grid;
     grid-template-columns:
-        minmax(20px, 1fr) 10fr minmax(20px, 1fr);
+        minmax(20px, 1fr) auto minmax(20px, 1fr);
 
     > * {
         grid-column: 2;

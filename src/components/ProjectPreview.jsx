@@ -13,7 +13,7 @@ export const ProjectPreview = ({ project }) => {
                 <p>{tech.map((technology, idx) => <span key={idx}>{technology}</span>)}</p>
             </div>
             <div className="card-footer">
-                <button className='btn'><a href="#">See Project <i></i><i className='elem-end'></i> </a></button>
+                <button className='btn'><a href={link} target="_blank">See Project <i></i><i className='elem-end'></i> </a></button>
             </div>
         </div>
     )

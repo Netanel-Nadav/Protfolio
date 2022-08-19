@@ -74,16 +74,6 @@
                     border: 1.5px solid $clr4;
                     background-color: $clr2;
                 }
-                // &::after {
-                //     content: "";
-                //     position: absolute;
-                //     bottom: -45px;
-                //     left: -0px;
-                //     width: 20px;
-                //     height: 6px;
-                //     border: 1.5px solid $clr4;
-                //     background-color: $clr2;
-                // }
             }
         }
 
@@ -93,6 +83,9 @@
             color: $clr4;
             i {
                 left: 20%;
+                &::before {
+                    background-color: $clr4;
+                }
             }
         }
        }
