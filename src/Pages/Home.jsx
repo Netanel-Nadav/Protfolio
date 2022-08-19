@@ -1,7 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 import CV from '../assets/Nati-CV-pdf.pdf'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Home = () => {
   return (
@@ -20,13 +20,15 @@ export const Home = () => {
           .typeString('Fullstack Engineer')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('Tennis Master (amateur level)')
+          .typeString('Amateur Tennis player')
           .pauseFor(2000)
           .deleteAll()
           .start()
       }} /></h3>
-      <a className='btn' href={CV} download>Download My CV</a>
-      <Link className='inverse-btn' to='/projects'>See My Projects</Link>
+      <div className="btn-wrraper flex">
+        <a className='btn' href={CV} download>Download My CV</a>
+        <Link className='inverse-btn' to='/projects'>See My Projects</Link>
+      </div>
     </div>
   )
 }
