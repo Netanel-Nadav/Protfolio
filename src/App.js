@@ -16,8 +16,8 @@ export const App = () => {
         <main>
           <Routes>
             <Route path={'/'} element={<Home />} />
+            <Route path={'/:id'} element={<ProjectDetails/>} />
             <Route path={'/projects'} element={<Projects />} />
-            <Route path={'/projects/:id'} element={<ProjectDetails/>} />
           </Routes>
         </main>
       </div>

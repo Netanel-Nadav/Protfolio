@@ -1,9 +1,6 @@
 .projects {
-    display: grid;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     gap: 20px;
-    
-    @include wide-layout {
-        grid-template-columns: 1fr 1fr;
-    }
+    flex-wrap: wrap;
 }

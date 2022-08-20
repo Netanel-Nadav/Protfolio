@@ -1,0 +1,11 @@
+.project-details {
+    height: 100%;
+    padding: 2rem;
+    .wrraper {
+        flex-direction: column;
+        @include wide-layout {
+            flex-direction: row;
+        }
+        
+    }
+}

@@ -2,7 +2,6 @@
     display: grid;
     @include wide-layout {
         grid-template-columns: 150px 1fr;
-        gap: 10px;
         height: 100%;
     }
 }
