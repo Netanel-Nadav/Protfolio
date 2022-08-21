@@ -99,7 +99,7 @@ const projects = [
             },
         ],
         link: 'https://netanel-nadav.github.io/Netanel-Nadav-21-3-2022/',
-        description: 'A project i build to notify the user about the weater in he\'s place, and also alow a location search'
+        description: 'A project i built to notify the user about the weather in their location, and also allow a search by location'
     },
     {
         id: 3,

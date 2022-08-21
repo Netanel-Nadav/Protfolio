@@ -10,7 +10,8 @@
 .grid-container {
     display: grid;
     grid-template-columns:
-        minmax(20px, 1fr) auto minmax(20px, 1fr);
+        // minmax(20px, 1fr) auto minmax(20px, 1fr);
+        20px auto 20px;
 
     > * {
         grid-column: 2;

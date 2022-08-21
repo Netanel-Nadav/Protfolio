@@ -1,0 +1,24 @@
+.about-me {
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    .wrraper {
+        gap: 20px;
+
+        .details-container {
+            p {
+                max-width: 60ch;
+            }
+        }
+
+        .img-container {
+            width: 300px;
+        }
+
+        @include normal-layout {
+            flex-direction: row;
+        }
+    }
+
+}

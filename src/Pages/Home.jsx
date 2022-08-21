@@ -2,6 +2,7 @@ import React from 'react'
 import Typewriter from 'typewriter-effect'
 import CV from '../assets/Nati-CV-pdf.pdf'
 import { Link } from 'react-router-dom'
+import { AboutMe } from '../components/AboutMe'
 
 export const Home = () => {
   return (
@@ -29,6 +30,7 @@ export const Home = () => {
         <a className='btn' href={CV} download>Download My CV</a>
         <Link className='inverse-btn' to='/projects'>See My Projects</Link>
       </div>
+      <AboutMe />
     </div>
   )
 }
