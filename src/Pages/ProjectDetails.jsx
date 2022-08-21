@@ -22,9 +22,18 @@ export const ProjectDetails = () => {
                 </div>
                 <div className="info-container">
                     <h1>{name}</h1>
-                    <p>{description}</p>
-                    {tech.map(technology => (
-                        <div className='tech-details'>{technology}</div>
+                    <p className='project-desc'>{description}</p>
+                    <h3>Tech Used</h3>
+                    {tech.map((technology, idx) => (
+                        <div className='tech-details flex align-center' key={idx}>
+                            <div className="img-container">
+                                <img src={technology.imgUrl} alt={technology.name} />
+                            </div>
+                            <div className="details-container flex column">
+                                <p className='tech-title'>{technology.name}</p>
+                                <p className='tech-desc'>{technology.description}</p>
+                            </div>
+                        </div>
                     ))}
                 </div>
             </div>
