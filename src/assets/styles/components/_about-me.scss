@@ -13,16 +13,22 @@
         }
         .border {
             position: absolute;
-            top: 15px;
-            left: -20px;
+            top: 30px;
+            left: 30px;
             width: 290px;
             height: 440px;
             // border: 1px solid $clr3;
             z-index: -1;
             background-color: $clr3;
+
+            @include normal-layout {
+                top: 30px;
+                left: -20px;
+            }
         }
         .img-container {
             width: 300px;
+            margin-bottom: 2rem;
             img {
                 box-shadow: -5px 5px 10px rgba(0,0,0,.4);
             }
