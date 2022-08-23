@@ -5,6 +5,7 @@ export const AboutMe = () => {
     return (
         <div className="about-me">
             <div className="wrraper flex align-center column">
+                <div className="border"></div>
                 <div className="img-container">
                     <img src={me} alt="Netanel Nadav" />
                 </div>

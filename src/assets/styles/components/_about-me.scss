@@ -5,15 +5,27 @@
 
     .wrraper {
         gap: 20px;
-
+        position: relative;
         .details-container {
             p {
                 max-width: 60ch;
             }
         }
-
+        .border {
+            position: absolute;
+            top: 15px;
+            left: -20px;
+            width: 290px;
+            height: 440px;
+            // border: 1px solid $clr3;
+            z-index: -1;
+            background-color: $clr3;
+        }
         .img-container {
             width: 300px;
+            img {
+                box-shadow: -5px 5px 10px rgba(0,0,0,.4);
+            }
         }
 
         @include normal-layout {
