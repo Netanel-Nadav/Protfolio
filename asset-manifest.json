@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Protfolio/static/css/main.20284b11.css",
-    "main.js": "/Protfolio/static/js/main.e4ff62f7.js",
+    "main.css": "/Protfolio/static/css/main.67b9341c.css",
+    "main.js": "/Protfolio/static/js/main.1e362749.js",
     "static/media/DotifyCover.png": "/Protfolio/static/media/DotifyCover.9a39129d580961e7cfa8.png",
     "static/media/redux.png": "/Protfolio/static/media/redux.df7d654653f8dca06c92.png",
     "static/media/Nati-CV-pdf.pdf": "/Protfolio/static/media/Nati-CV-pdf.cb25adeaf753c7f35866.pdf",
@@ -20,11 +20,11 @@
     "static/media/chrome.png": "/Protfolio/static/media/chrome.ccab7c12f4de3452996d.png",
     "static/media/socket.png": "/Protfolio/static/media/socket.aa36f15cdff5f7f77d44.png",
     "index.html": "/Protfolio/index.html",
-    "main.20284b11.css.map": "/Protfolio/static/css/main.20284b11.css.map",
-    "main.e4ff62f7.js.map": "/Protfolio/static/js/main.e4ff62f7.js.map"
+    "main.67b9341c.css.map": "/Protfolio/static/css/main.67b9341c.css.map",
+    "main.1e362749.js.map": "/Protfolio/static/js/main.1e362749.js.map"
   },
   "entrypoints": [
-    "static/css/main.20284b11.css",
-    "static/js/main.e4ff62f7.js"
+    "static/css/main.67b9341c.css",
+    "static/js/main.1e362749.js"
   ]
 }
