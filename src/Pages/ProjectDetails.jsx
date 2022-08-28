@@ -20,7 +20,7 @@ export const ProjectDetails = () => {
                 <div className="img-container">
                     <img src={imgUrl} alt={name} />
                 </div>
-                <div className="info-container">
+                <div className="info-container flex column">
                     <h1>{name}</h1>
                     <p className='project-desc'>{description}</p>
                     <h3>Tech Used</h3>
@@ -35,8 +35,8 @@ export const ProjectDetails = () => {
                             </div>
                         </div>
                     ))}
+                    <a href={link} tarxget="_blank">Watch The Project</a>
                 </div>
-                <a href={link} target="_blank">Watch The Project</a>
             </div>
         </div>
     )
