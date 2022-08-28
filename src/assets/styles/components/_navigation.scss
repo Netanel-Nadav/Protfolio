@@ -47,14 +47,17 @@ nav {
     top: -100%;
     transition: top .4s ease-in-out;
     z-index: 5;
+    font-size: rem(25px);
+    text-decoration: underline;
     
     &.open {
         top: 0;
     }
     ul {
-        gap: 20px;
+        gap: 40px;
     }
     @include wide-layout {
+        font-size: rem(50px);
         left: -100%;
         top: 0;
         width: calc(100% - 150px);
