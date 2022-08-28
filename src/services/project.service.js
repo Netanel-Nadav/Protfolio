@@ -7,10 +7,14 @@ import weatherLayout from '../assets/imgs/WeatherCover.png'
 import reactIcon from '../assets/imgs/react-symbol.png'
 import redux from '../assets/imgs/redux.png'
 import nodeJs from '../assets/imgs/nodeJs.png'
+import nodeWhite from '../assets/imgs/nodeWhite.png'
 import mongoDB from '../assets/imgs/MongoDB.png'
+import mongoWhite from '../assets/imgs/MongoWhite.png'
 import socket from '../assets/imgs/socket.png'
+import socketWhite from '../assets/imgs/socketWhite.png'
 import sass from '../assets/imgs/sass.png'
 import axios from '../assets/imgs/axios.png'
+import axiosWhite from '../assets/imgs/axiosWhite.png'
 import chrome from '../assets/imgs/chrome.png'
 import restAPI from '../assets/imgs/restAPI.png'
 
@@ -35,17 +39,17 @@ const projects = [
             {
                 name: 'NodeJs',
                 description: 'I used NodeJs to build my backend of the application. Express choose to serve as the backend Farmework with NodeJs ',
-                imgUrl: nodeJs
+                imgUrl: nodeWhite
             },
             {
                 name: 'MongoDB',
                 description: 'I choose MongoDB to serve as my database, noSQL  database work very good with nodeJS so i decided that the best option for this project is MongoDB',
-                imgUrl: mongoDB
+                imgUrl: mongoWhite
             },
             {
                 name: 'WebSockets',
                 description: 'This application were build for building shared Playlists, so i used Socket.io to communicate live changes for all the users at the same time.',
-                imgUrl: socket
+                imgUrl: socketWhite
             },
             {
                 name: 'Sass',
@@ -75,7 +79,7 @@ const projects = [
             {
                 name: 'Axios',
                 description: 'I choose Axios library for fetching the data from ACU-Weather API',
-                imgUrl: axios
+                imgUrl: axiosWhite
             },
             {
                 name: 'Sass',
