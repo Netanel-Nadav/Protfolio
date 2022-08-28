@@ -9,7 +9,7 @@ export const Home = () => {
     <div className="home">
       <div className="title-wrapper">
         <h1> &lt; Hello World! &gt; </h1>
-        <p>my name is Netanel (but everyone call me Nati) </p>
+        <p>my name is Netanel (but everyone call's me Nati) </p>
       </div>
       <h3>I am a <Typewriter options={{ loop: true }} onInit={(typewriter) => {
         typewriter.typeString('React Developer')
@@ -18,10 +18,10 @@ export const Home = () => {
           .typeString('CSS & SASS Ninja')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('Fullstack Engineer')
+          .typeString('Fullstack Developer')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('Tennis player as hobby')
+          .typeString('Tennis player')
           .pauseFor(2000)
           .deleteAll()
           .start()
