@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/Protfolio/static/css/main.e07ed663.css",
-    "main.js": "/Protfolio/static/js/main.07ed9778.js",
+    "main.css": "/Protfolio/static/css/main.b52a762a.css",
+    "main.js": "/Protfolio/static/js/main.442baa07.js",
     "static/media/DotifyCover.png": "/Protfolio/static/media/DotifyCover.9a39129d580961e7cfa8.png",
     "static/media/redux.png": "/Protfolio/static/media/redux.df7d654653f8dca06c92.png",
     "static/media/Nati-CV-pdf.pdf": "/Protfolio/static/media/Nati-CV-pdf.cb25adeaf753c7f35866.pdf",
     "static/media/me.jpg": "/Protfolio/static/media/me.3e715913a519538233c2.jpg",
     "static/media/Dotify.png": "/Protfolio/static/media/Dotify.e9f7408eddeeb4f7cae8.png",
+    "static/media/nodeWhite.png": "/Protfolio/static/media/nodeWhite.20c16873ea1d7236ecf8.png",
     "static/media/restAPI.png": "/Protfolio/static/media/restAPI.69e1cebd36f249ab5f96.png",
     "static/media/MongoDB.png": "/Protfolio/static/media/MongoDB.41e505b098e3087319b8.png",
     "static/media/axios.png": "/Protfolio/static/media/axios.5384528651d46c2305f4.png",
@@ -16,15 +17,18 @@
     "static/media/Pixel.png": "/Protfolio/static/media/Pixel.7223c18648fe815e610f.png",
     "static/media/nodeJs.png": "/Protfolio/static/media/nodeJs.abfaef34ea49d0c7cd3c.png",
     "static/media/react-symbol.png": "/Protfolio/static/media/react-symbol.80045de70681e3171446.png",
+    "static/media/axiosWhite.png": "/Protfolio/static/media/axiosWhite.9b9ca3e916d6c62333f6.png",
     "static/media/WeatherCover.png": "/Protfolio/static/media/WeatherCover.3288230b66b37a3ccb8d.png",
-    "static/media/chrome.png": "/Protfolio/static/media/chrome.ccab7c12f4de3452996d.png",
+    "static/media/MongoWhite.png": "/Protfolio/static/media/MongoWhite.ead065561671561e2769.png",
+    "static/media/chrome.png": "/Protfolio/static/media/chrome.fb352b060cade57c77fe.png",
     "static/media/socket.png": "/Protfolio/static/media/socket.aa36f15cdff5f7f77d44.png",
+    "static/media/socketWhite.png": "/Protfolio/static/media/socketWhite.73e2f997e2ae74956ee3.png",
     "index.html": "/Protfolio/index.html",
-    "main.e07ed663.css.map": "/Protfolio/static/css/main.e07ed663.css.map",
-    "main.07ed9778.js.map": "/Protfolio/static/js/main.07ed9778.js.map"
+    "main.b52a762a.css.map": "/Protfolio/static/css/main.b52a762a.css.map",
+    "main.442baa07.js.map": "/Protfolio/static/js/main.442baa07.js.map"
   },
   "entrypoints": [
-    "static/css/main.e07ed663.css",
-    "static/js/main.07ed9778.js"
+    "static/css/main.b52a762a.css",
+    "static/js/main.442baa07.js"
   ]
 }
