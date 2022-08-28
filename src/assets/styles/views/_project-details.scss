@@ -2,7 +2,10 @@
     height: 100%;
     padding: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    text-align: center;
+    @include normal-layout {
+        text-align: left;
+    }
     .wrraper {
         flex-direction: column;
 
@@ -12,25 +15,31 @@
 
         .info-container {
             h1 {
-                font-size: rem(40px);
+                font-size: rem(35px);
                 margin-bottom: 1.5rem;
             }
 
             .project-desc {
-                margin-bottom: 1.5rem;
+                margin-bottom: 3rem;
             }
 
             h3 {
                 font-size: rem(30px);
-                margin-bottom: .550rem;
+                margin-bottom: 1rem;
             }
 
             .tech-details {
                 gap: 20px;
                 margin-bottom: 2rem;
+                flex-direction: column;
+                text-align: center;
+                @include normal-layout {
+                    flex-direction: row;
+                    text-align: left;
+                }
 
                 .img-container {
-                    width: 70px;
+                    width: 80px;
                 }
 
                 .details-container {
