@@ -11,7 +11,9 @@ export const AboutMe = () => {
                 </div>
                 <div className="details-container">
                     <h1>About Me</h1>
-                    <p>My name is netanel nadav, i'm 30 years old with a Master Degree in digital communication. i've worked 3 years in a startup as a Marketer & PPC Specaliest and i decided to take my skills to the next level. thats why i started learning Code so i can make good idea's come true!</p>
+                    <p>My name is Netanel Nadav, i am 30 years old with a Bachelor's Degree in Communication and Media Studies. I've worked 3 years in a startup as a creative team Leader & PPC Specaliest and i decided to take my skills to the next level.
+                        Thats why i started learning Code so i can make good idea's come true!
+                        </p>
                 </div>
             </div>
         </div>

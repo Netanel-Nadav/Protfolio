@@ -21,14 +21,14 @@ export const Home = () => {
           .typeString('Fullstack Engineer')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('Amateur Tennis player')
+          .typeString('Tennis player as hobby')
           .pauseFor(2000)
           .deleteAll()
           .start()
       }} /></h3>
       <div className="btn-wrraper flex">
-        <a className='btn' href={CV} download>Download My CV</a>
-        <Link className='inverse-btn' to='/projects'>See My Projects</Link>
+        <a className='btn' href={CV} download>Download CV</a>
+        <Link className='inverse-btn' to='/projects'>My Projects</Link>
       </div>
       <AboutMe />
     </div>

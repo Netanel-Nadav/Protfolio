@@ -36,6 +36,7 @@ export const ProjectDetails = () => {
                         </div>
                     ))}
                 </div>
+                <a href={link} target="_blank">Watch The Project</a>
             </div>
         </div>
     )
